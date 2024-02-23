@@ -211,52 +211,61 @@
                                         </div>
                                     </div>
                                     <div class="form-group row">
-                                        <div class="col-sm-4">
+                                        <div class="col-sm-2">
                                             <div class="jumbotron">
                                                 <h1 class="display">0</h1>                                                
                                             </div>
                                         </div>
-                                        <div class="col-sm-8">
-                                            <div class="row">
-                                                <div class="col-sm-6 mb-3">
-                                                    <button type="button" class="btn btn-primary btn-lg btn-block">
-                                                        <i class="fas fa-sign-in-alt"></i> ENTRADA
-                                                    </button>                                                
-                                                    <button type="button" class="btn btn-danger btn-lg btn-block">
-                                                        <i class="fas fa-sign-out-alt"></i> SALIDA
+                                        <div class="col-sm-6">
+                                            <button type="button" class="btn btn-primary btn-lg btn-block">
+                                                <i class="fas fa-sign-in-alt"></i> ENTRADA
+                                            </button>                                                
+                                            <button type="button" class="btn btn-danger btn-lg btn-block">
+                                                <i class="fas fa-sign-out-alt"></i> SALIDA
+                                            </button>
+                                            <div class="row mt-3">
+                                                <div class="col-sm-6 mb-2">
+                                                    <button type="button" class="btn btn-primary btn-block">
+                                                        <i class="fas fa-pencil-alt"></i> Manual
                                                     </button>
-                                                    <div class="row mt-3">
-                                                        <div class="col-sm-3 mb-2">
-                                                            <button type="button" class="btn btn-primary btn-block">
-                                                                <i class="fas fa-pencil-alt"></i> Manual
-                                                            </button>
-                                                        </div>
-                                                        <div class="col-sm-3 mb-2">
-                                                            <button type="button" class="btn btn-primary btn-block">
-                                                                <i class="fas fa-plus"></i> Nuevo
-                                                            </button>
-                                                        </div>
-                                                        <div class="col-sm-3 mb-2">
-                                                            <button type="button" class="btn btn-success btn-block">
-                                                                <i class="fas fa-check"></i> Aplicar
-                                                            </button>
-                                                        </div>
-                                                        <div class="col-sm-3 mb-2">
-                                                            <button type="button" class="btn btn-info btn-block">
-                                                                <i class="fas fa-ticket-alt"></i> Ticket
-                                                            </button>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-sm-6">
-                                                    <label for="kg1">KG</label>
-                                                    <input type="text" class="form-control" id="kg1">
-                                                    
-                                                    <label for="kg2">KG</label>
-                                                    <input type="text" class="form-control" id="kg2">                                                
                                                 
-                                                    <label for="kg3">NETO KG</label>
+                                                    <button type="button" class="btn btn-primary btn-block">
+                                                        <i class="fas fa-plus"></i> Nuevo
+                                                    </button>
+                                                </div>
+                                                <div class="col-sm-6 mb-2">
+                                                    <button type="button" class="btn btn-success btn-block">
+                                                        <i class="fas fa-check"></i> Aplicar
+                                                
+                                                    <button type="button" class="btn btn-info btn-block">
+                                                        <i class="fas fa-ticket-alt"></i> Ticket
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="row mt-2">
+                                                <div class="col-8">
+                                                    <input type="text" class="form-control" id="kg1">                                                    
+                                                </div>
+                                                <div class="col-4">
+                                                    <label for="kg1">KG</label>
+                                                </div>
+                                            </div>
+                                            <div class="row mt-2">
+                                                <div class="col-8">
+                                                    <input type="text" class="form-control" id="kg2">
+                                                </div>
+                                                <div class="col-4">
+                                                    <label for="kg2">KG</label>
+                                                </div>
+                                            </div>
+                                            <div class="row mt-2">
+                                                <div class="col-8">
                                                     <input type="text" class="form-control" id="kg3">
+                                                </div>
+                                                <div class="col-4">
+                                                    <label for="kg3">NETO KG</label>                                   
                                                 </div>
                                             </div>
                                         </div>
@@ -268,19 +277,17 @@
                                     <div class="form-group row">
                                         <div class="col-sm-4">
                                             <div class="row">
-                                                <div class="col-sm-3">
+                                                <div class="col-sm-6">
                                                     <label for="patente">Patente</label>
                                                     <input type="text" class="form-control" id="patente">
-                                                </div>
-                                                <div class="col-sm-3">
+
                                                     <label for="chasis">Chasis</label>
                                                     <input type="text" class="form-control" id="chasis">
                                                 </div>
-                                                <div class="col-sm-3">
+                                                <div class="col-sm-6">
                                                     <label for="factura">Factura</label>
                                                     <input type="text" class="form-control" id="factura">
-                                                </div>
-                                                <div class="col-sm-3">
+
                                                     <label for="documento">Documento</label>
                                                     <input type="text" class="form-control" id="documento">
                                                 </div>                                            
@@ -288,7 +295,9 @@
                                             <div class="row">
                                                 <div class="col-sm-12">
                                                     <label for="observaciones">Observaciones</label>
-                                                    <input type="text" class="form-control" id="observaciones">
+                                                    <textarea class="form-control" id="observaciones" rows="3">
+                                                        
+                                                    </textarea>
                                                 </div>
                                             </div>
                                         </div>
